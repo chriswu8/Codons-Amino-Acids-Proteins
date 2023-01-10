@@ -1,0 +1,11 @@
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\bin\Debug\Amino Acids.exe.config
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\bin\Debug\Amino Acids.exe
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\bin\Debug\Amino Acids.pdb
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino Acids.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino Acids.csproj.SuggestedBindingRedirects.cache
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino_Acids.Form1.resources
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino_Acids.Properties.Resources.resources
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino Acids.csproj.GenerateResource.cache
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino Acids.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino Acids.exe
+C:\Users\chris\OneDrive\Desktop\COMP 3951\Labs\Lab1\Amino Acids\obj\Debug\Amino Acids.pdb
