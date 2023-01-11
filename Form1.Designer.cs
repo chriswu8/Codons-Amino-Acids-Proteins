@@ -586,7 +586,7 @@
             // 
             // button41
             // 
-            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button41.BackColor = System.Drawing.Color.Khaki;
             this.button41.Location = new System.Drawing.Point(369, 169);
             this.button41.Margin = new System.Windows.Forms.Padding(2);
             this.button41.Name = "button41";
@@ -598,7 +598,7 @@
             // 
             // button42
             // 
-            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button42.BackColor = System.Drawing.Color.Khaki;
             this.button42.Location = new System.Drawing.Point(369, 151);
             this.button42.Margin = new System.Windows.Forms.Padding(2);
             this.button42.Name = "button42";
@@ -610,7 +610,7 @@
             // 
             // button43
             // 
-            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button43.BackColor = System.Drawing.Color.Khaki;
             this.button43.Location = new System.Drawing.Point(369, 132);
             this.button43.Margin = new System.Windows.Forms.Padding(2);
             this.button43.Name = "button43";
@@ -622,7 +622,7 @@
             // 
             // button44
             // 
-            this.button44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button44.BackColor = System.Drawing.Color.Khaki;
             this.button44.Location = new System.Drawing.Point(369, 115);
             this.button44.Margin = new System.Windows.Forms.Padding(2);
             this.button44.Name = "button44";
