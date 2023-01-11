@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Amino_Acids
 {
@@ -22,7 +23,9 @@ namespace Amino_Acids
         private const int THRESHOLD = 12;
         private const int MOVE_RIGHT_AMOUNT = 75;
         private const int WIDTH_SHAVE = 27;
+        private const int INITIAL_LEFT = 25;
 
+        // The Form1 constructor
         public Form1()
         {
             InitializeComponent();
@@ -32,7 +35,7 @@ namespace Amino_Acids
             this.counter = 0;
         }
 
-        // Create a dictionary that maps codons to amino acids
+        // A dictionary that maps codons to amino acids
         Dictionary<string, string> codonToAminoAcid = new Dictionary<string, string>()
         {
             {"UUU", "Phenylalanine"},
@@ -114,7 +117,6 @@ namespace Amino_Acids
             }
             aminoAcid.Top = newLabel * topMargin;
             aminoAcid.Left = leftMargin;
-
 
             aminoAcid.Text = codonToAminoAcid[codon];
             newLabel++;
@@ -444,5 +446,37 @@ namespace Amino_Acids
         {
             addNewLabel("GGA");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //
+        }
+
+
+
+        private void removeLabel(Label l)
+        {
+            this.Controls.Remove(l);
+            l.Dispose();
+            l = null;
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            foreach (Label l in this.Controls.OfType<Label>())
+            {
+                removeLabel(l);
+            }
+
+            newLabel = 1;
+            counter = 0;
+            leftMargin = INITIAL_LEFT;
+        }
+
     }
 }
