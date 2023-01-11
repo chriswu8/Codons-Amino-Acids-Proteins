@@ -19,8 +19,9 @@ namespace Amino_Acids
         private int topMargin;
         private int counter;
 
-        private const int THRESHOLD = 2;
-        private const int MOVE_RIGHT_AMOUNT = 95;
+        private const int THRESHOLD = 12;
+        private const int MOVE_RIGHT_AMOUNT = 75;
+        private const int WIDTH_SHAVE = 27;
 
         public Form1()
         {
@@ -118,8 +119,8 @@ namespace Amino_Acids
             aminoAcid.Text = codonToAminoAcid[codon];
             newLabel++;
             counter++;
-        
-            
+
+            aminoAcid.Width = aminoAcid.Width - WIDTH_SHAVE;
             return aminoAcid;
         }
 
