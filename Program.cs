@@ -11,6 +11,8 @@ namespace Amino_Acids
     {
         /// <summary>
         /// The main entry point for the application.
+        /// This program converts codons into their corresponding amino acids,
+        /// and showcases the concept of amino acid redundancy through color groupings.
         /// </summary>
         [STAThread]
         static void Main()
@@ -20,14 +22,6 @@ namespace Amino_Acids
 
             Form1 form1 = new Form1();
             Application.Run(form1);
-
-            Button clearButton = new Button();
-            clearButton.Text = "Clear all";
-            clearButton.Location = new Point((form1.Width - clearButton.Width) / 2, (form1.Height - clearButton.Height) / 2);
-            clearButton.Size = new Size(100, 25);
-            form1.Controls.Add(clearButton);
-
-            clearButton.Size = new Size(40, 40);
         }
     }
 }
