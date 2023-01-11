@@ -10,9 +10,13 @@ namespace Amino_Acids
     internal static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
-        /// This program converts codons into their corresponding amino acids,
-        /// and showcases the concept of amino acid redundancy through color groupings.
+        /// Lab 1 - Codon to Amino Acid Converter 
+        /// Author: Chris Wu 
+        /// Date: January 10th, 2023
+        /// 
+        /// This program converts codons into their corresponding amino acids.
+        /// It also showcases the concept of amino acid redundancy 
+        /// (and resiliency to DNA mutation) through color groupings.
         /// </summary>
         [STAThread]
         static void Main()
